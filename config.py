@@ -14,9 +14,9 @@ class Config(object):
     SPAMWATCH_API = None
     TOKEN = getenv("TOKEN", "7519139941:AAE6jFCGiqvhLu1i7HoNL9qdQRZgrQm6HqM")
     OWNER_ID = int(getenv("OWNER_ID", 1886390680))
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "sung_jinwo4")
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "souls_societyy")
-    UPDATE_CHAT = getenv("UPDATE_CHAT", "soul_networks")
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "jinwoo_sung4")
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "eldian_empire")
+    UPDATE_CHAT = getenv("UPDATE_CHAT", "eldian_networks")
     LOGGER_ID = int(getenv("LOGGER_ID", "-1002046276298"))
     EVENT_LOG = int(getenv("EVENT_LOG", "-1002046276298"))
     MONGO_URI = getenv(
