@@ -12,20 +12,20 @@ class Config(object):
     API_HASH = getenv("API_HASH", "3c0f6066a07142d664690cfd34447450")
     ARQ_API_KEY = "PMPTTD-HOMLMF-SRBHNH-RZMWXL-ARQ"
     SPAMWATCH_API = None
-    TOKEN = getenv("TOKEN", "7519139941:AAE6jFCGiqvhLu1i7HoNL9qdQRZgrQm6HqM")
-    OWNER_ID = int(getenv("OWNER_ID", 1886390680))
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "jinwoo_sung4")
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "eldian_empire")
-    UPDATE_CHAT = getenv("UPDATE_CHAT", "eldian_networks")
-    LOGGER_ID = int(getenv("LOGGER_ID", "-1002046276298"))
-    EVENT_LOG = int(getenv("EVENT_LOG", "-1002046276298"))
+    TOKEN = getenv("TOKEN", "7916656117:AAEtfNXS7b33yMiWNBRpItPzkuBaVrLAeZM")
+    OWNER_ID = int(getenv("OWNER_ID", 6848223695))
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "its_damiann")
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "the_city_of_magicians")
+    UPDATE_CHAT = getenv("UPDATE_CHAT", "the_hogwart")
+    LOGGER_ID = int(getenv("LOGGER_ID", "-1002023182491"))
+    EVENT_LOG = int(getenv("EVENT_LOG", "-1002023182491"))
     MONGO_URI = getenv(
         "MONGO_DB_URI",
-        "mongodb+srv://kiraPersonalDB:KiraDB2023@cluster0.qm8bgzb.mongodb.net/",
+        "mongodb+srv://orewauzumaki:orewauzumaki@cluster0.bmhengh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     )
     DB_NAME = getenv("DB_NAME", "HoshinoBotV3")
-    REDIS_URL = "redis://default:QuPcQZrXEMAQ6KCrsAKWwL1aQW3gsZEu@redis-16159.c274.us-east-1-3.ec2.cloud.redislabs.com:16159"
-    DATABASE_URL = getenv("DATABASE_URL", "postgres://avnadmin:AVNS_Ez0UFOgjgaSCk-Gr7NQ@sung-erenyeager.h.aivencloud.com:23096/defaultdb?sslmode=require")
+    REDIS_URL = "redis://default:uAoinUQfH83lGLZvXYk5nMGHGCQnZL2s@redis-12586.c74.us-east-1-4.ec2.redns.redis-cloud.com:12586"
+    DATABASE_URL = getenv("DATABASE_URL", "postgres://wsnioboi:Fkf1ef7qRJVP1CvP_gKYqhdxk6LXBbQE@balarama.db.elephantsql.com/wsnioboi")
 
     # ɴᴏ ᴇᴅɪᴛ ᴢᴏɴᴇ
     if DATABASE_URL.startswith("postgres://"):
