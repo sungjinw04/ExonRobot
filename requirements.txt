@@ -55,7 +55,7 @@ gpytranslate==1.5.1
 cloudscraper==1.2.70
 pretty_errors
 aiohttp>=3.6.2,<4.0
-
+pip>=24.2
 async-timeout==3.0.1
 carbonnow==0.0.1  # keep this version since it requires aiohttp==3.7.3
 search-engine-parser==0.6.8  # will work with aiohttp 3.x
