@@ -55,3 +55,6 @@ gpytranslate==1.5.1
 cloudscraper==1.2.70
 carbonnow
 pretty_errors
+aiohttp>=3.8.0
+async-timeout==3.0.1 
+
