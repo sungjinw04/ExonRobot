@@ -36,7 +36,7 @@ pyrofork
 python-arq==6.0.7
 python-dotenv==1.0.1
 ffmpeg-python==0.2.0
-redis==5.0.2
+redis==4.0.2
 telegraph==2.2.0
 motor
 pymongo[srv]==4.7.2
@@ -56,5 +56,4 @@ cloudscraper==1.2.70
 carbonnow
 pretty_errors
 aiohttp>=3.8.0
-async-timeout==3.0.1 
-
+async-timeout==3.0.1
